@@ -16,14 +16,14 @@ class Container <T extends Graphics> implements ContainerInterface<Graphics>{
         this.child=[]
         return this
     }
-    remove(grap:T){
-        this.child.remove(grap)
-        return this
-    }
-    remove_clear(grap:T){
-        this.remove(grap)
-        grap.clear()
-        return this
-    }
+    // remove(grap:T){
+    //     this.child.remove(grap)
+    //     return this
+    // }
+    // remove_clear(grap:T){
+    //     this.remove(grap)
+    //     grap.clear()
+    //     return this
+    // }
 }
 export {Container}

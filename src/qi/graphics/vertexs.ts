@@ -82,10 +82,10 @@ class Vertexs{
         return this
     }
     // remove point from the points
-    remove(point:Point){
-        this.points.remove(point);
-        this.draw()
-        return this
-    }
+    // remove(point:Point){
+    //     this.points.remove(point);
+    //     this.draw()
+    //     return this
+    // }
 }
 export {Vertexs}

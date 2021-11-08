@@ -18,12 +18,12 @@ interface ContainerInterface <T extends Graphics>{
      * 将图形移出集合，不清除图形
      * @param grap
      */
-    remove(grap:T):this
+    //remove(grap:T):this
 
     /**
      * 将图形移出集合，并清除图形
      * @param grap
      */
-    remove_clear(grap:T):this
+    //remove_clear(grap:T):this
 }
 export {ContainerInterface}
