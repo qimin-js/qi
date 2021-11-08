@@ -5,6 +5,10 @@ electron + TypeScript + canvas
 
 完成功能：旋转；移动；锚点；图层；上下级；
 ***
+**安装**
+```bash
+npm install # 安装依赖
+```
 **运行**
 ```bash
 # copyJS 复制html，css等文件到dist文件，
