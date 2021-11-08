@@ -7,7 +7,9 @@ electron + TypeScript + canvas
 ***
 **运行**
 ```bash
-electron . # 即可
+# copyJS 复制html，css等文件到dist文件，
+# npm run path 编辑import路径 
+npm run build && npm run copyJS && npm run path && electron .
 ```
 **example**
 ```TypeScript
