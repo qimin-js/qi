@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+button,
+input {
+    outline: none;
+}
+button{
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    border: 0px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+input{
+    /*border: 0px;*/
+}

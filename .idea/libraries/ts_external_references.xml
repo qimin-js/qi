@@ -1,0 +1,80 @@
+<component name="libraryTable">
+  <library name="ts-external-references" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/accessibility/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/app/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/compressed-textures/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/constants/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/core/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/display/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/extract/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-alpha/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-blur/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-displacement/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/filter-noise/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/graphics/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/interaction/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/loaders/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/math/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/mesh-extras/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/mesh/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/particle-container/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/prepare/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/runner/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/settings/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/sprite-animated/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/sprite/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/spritesheet/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/text-bitmap/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/text/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/ticker/index.d.ts" />
+        <item url="file://$PROJECT_DIR$/node_modules/@pixi/utils/index.d.ts" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/accessibility/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/app/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/compressed-textures/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/constants/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/core/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/display/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/extract/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-alpha/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-blur/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-displacement/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/filter-noise/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/graphics/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/interaction/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/loaders/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/math/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/mesh-extras/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/mesh/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/particle-container/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/prepare/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/runner/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/settings/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/sprite-animated/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/sprite/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/spritesheet/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/text-bitmap/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/text/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/ticker/index.d.ts" />
+      <root url="file://$PROJECT_DIR$/node_modules/@pixi/utils/index.d.ts" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

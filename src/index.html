@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <style>
+      canvas{
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="texture" src="./qi/img/bgcImg5.jpg" style="display: none">
+    <div id="map" style="width: 1200px;height: 00px">
+      <div id="can1"> <!--world帮助参数-->
+        <div id="can2" style="position: relative"><!--图形事件-->
+          <div id="can3"><!--玩家事件-->
+              <canvas id="can">
+
+              </canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.exports=module.exports // 手动将 exports 指向 module.exports
+    </script>
+    <script type="module" src="./qi.js"></script>
+    <script type="module" src="./menu.js"></script>
+    <script type="module" src="./test.js"></script>
+  </body>
+</html>

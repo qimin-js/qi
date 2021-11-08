@@ -1,15 +1,24 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "target": "esnext",
     "noImplicitAny": true,
     "sourceMap": true,
-    "outDir": "dist",
-    "baseUrl": ".",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization":false,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
     "paths": {
-      "*": ["node_modules/*"]
+      "*": ["node_modules/*"],
+      "qi/*": ["src/qi/*"],
+      "extend/*": ["src/qi/extend/*"],
+      "menu/*": ["src/menu/*"],
+      "src/*": ["src/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

@@ -1,30 +1,41 @@
 {
-  "name": "electron-quick-start-typescript",
+  "name": "electron-typescript",
   "version": "1.0.0",
-  "description": "A minimal Electron application written with Typescript",
+  "description": "Electron use Typescript",
+  "main": "main.js",
   "scripts": {
     "build": "tsc",
+    "copyJS": "echo '开始复制js文件' && ./copyJS ./src ./dist --file js --file css --file html",
+    "path": "echo '开始编辑模块路径' && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
     "watch": "tsc -w",
     "lint": "eslint -c .eslintrc --ext .ts ./src",
-    "start": "npm run build && electron ./dist/main.js"
+    "start": "npm run build && npm run copyJS && npm run path && electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start-typescript",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo",
     "typescript"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@types/matter-js": "^0.17.5",
+    "@types/mousetrap": "^1.6.8",
+    "@types/node": "^16.4.13",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.28.4",
-    "electron": "^13.1.7",
+    "electron": "^13.1.9",
     "eslint": "^7.32.0",
-    "typescript": "^4.3.5"
+    "tscpaths": "^0.0.9",
+    "typescript": "^4.3.5",
+    "yargs-parser": "^20.2.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@electron/remote": "^1.2.1",
+    "matter-js": "^0.17.1",
+    "mousetrap": "^1.6.5",
+    "pixi-layers": "^0.3.0",
+    "pixi-plugin-bump": "^1.1.8",
+    "pixi.js": "^6.1.1",
+    "qingwa": "^1.0.7"
+  }
 }

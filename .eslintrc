@@ -4,9 +4,19 @@
   "plugins": [
     "@typescript-eslint"
   ],
+  "rules": {
+    "@typescript-eslint/no-var-requires": 0,
+    "prefer-const": "off",
+    "@typescript-eslint/no-inferrable-types": "off" // 关闭类型推断
+    "no-implicit-dependencies":[true,["src"]],
+    "no-submodule-imports":[true,"src"]
+  },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
-  ]
+  ],
+  "env": {
+    "node": true // 只需将该项设置为 true 即可
+  }
 }

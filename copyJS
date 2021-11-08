@@ -1,0 +1,44 @@
+#!/usr/local/bin/node
+/**
+ * 复制特定文件，到特定位置
+ */
+const argv = require('yargs-parser')(process.argv.slice(2))
+let exec = require('child_process').exec;
+const promisify = require('util').promisify;
+const shellJs = promisify(exec);//改造exec支持await获取返回值。
+
+console.log(argv)
+let copyFolder = argv._[0]
+let targetFolder = argv._[1]
+let fileType
+if (argv.file instanceof Array) {
+    fileType = argv.file
+} else {
+    fileType = [argv.file || 'js']
+}
+console.log('fileType   ', fileType);
+console.log(`复制${copyFolder}中${fileType}文件到${targetFolder}文件夹`)
+
+for (let params of fileType) {
+    shellJs(`find ${copyFolder} -name "*.${params}"`).then(function (doc) {
+        let copyFilePaths = doc.stdout.split('\n')
+        copyFilePaths.pop()
+        let index = 0
+        for (let copyFilePath of copyFilePaths) {
+            let targetFilePath = copyFilePath.replace(RegExp(copyFolder), targetFolder)
+            let targetFolderPathArray = targetFilePath.split('/')
+            targetFolderPathArray.pop()
+            let targetFolderPath = ''
+            for (let params of targetFolderPathArray) {
+                targetFolderPath += params + '/'
+            }
+            // console.log(targetFolderPath);
+            console.log(`cp ${copyFilePath} ${targetFilePath}`);
+            shellJs(`cp ${copyFilePath} ${targetFilePath} || mkdir -p ${targetFolderPath} && echo 创建文件夹${targetFolderPath} && cp ${copyFilePath} ${targetFilePath}`)
+
+            index += 1
+        }
+    }).catch(function (err) {
+        console.log(err);
+    })
+}
