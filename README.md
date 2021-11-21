@@ -15,7 +15,8 @@ npm install
 npm run build && npm run copyJS && npm run path && electron .
 ```
 **Example**
-ort {Line, World} from "src/qi"
+```TypeScript
+import {Line, World} from "src/qi"
 let world=new World({})
 let ll= new Line().moveTo(0,0).lineTo(100,100)
 ll.stroke().endPath()
