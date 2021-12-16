@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@electron/remote": "^1.2.1",
-    "matter-js": "^0.17.1",
+    "matter-js": "^0.18.0",
     "mousetrap": "^1.6.5",
     "pixi-layers": "^0.3.0",
     "pixi-plugin-bump": "^1.1.8",
