@@ -19,7 +19,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/matter-js": "^0.17.5",
-    "@types/mousetrap": "^1.6.8",
+    "@types/mousetrap": "^1.6.9",
     "@types/node": "^16.4.13",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.28.4",
