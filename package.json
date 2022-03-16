@@ -30,7 +30,7 @@
     "yargs-parser": "^20.2.9"
   },
   "dependencies": {
-    "@electron/remote": "^1.2.1",
+    "@electron/remote": "^2.0.8",
     "matter-js": "^0.17.1",
     "mousetrap": "^1.6.5",
     "pixi-layers": "^0.3.0",
