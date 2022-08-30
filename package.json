@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/matter-js": "^0.17.5",
     "@types/mousetrap": "^1.6.8",
-    "@types/node": "^16.4.13",
+    "@types/node": "^18.7.14",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.28.4",
     "electron": "^13.1.9",
