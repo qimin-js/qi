@@ -35,7 +35,7 @@
     "mousetrap": "^1.6.5",
     "pixi-layers": "^0.3.0",
     "pixi-plugin-bump": "^1.1.8",
-    "pixi.js": "^6.1.1",
+    "pixi.js": "^6.5.4",
     "qingwa": "^1.0.7"
   }
 }
